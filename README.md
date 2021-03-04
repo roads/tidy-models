@@ -2,6 +2,14 @@
 
 Some boilerplate classes and utility funcitons for keeping model results tidy.
 
+## Disclaimer
+This code is not stable and likely to change. Do not use this code for anything serious.
+
+## Installation
+1. Clone the repo to your machine: `git clone https://github.com/roads/tidy-models.git path/to/local/tidy_models`
+2. Use pip and `-e` option to install your local copy: `pip install -e path/to/local/tidy_models`
+3. Update your copy using `git pull`
+
 ## Modules
 * `model_identifier`
 * `databases`
