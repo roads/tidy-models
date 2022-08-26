@@ -30,8 +30,8 @@ class ModelIdentifier(object):
     Attributes:
         arch_id: Integer that identifies the model architecture.
         input_id: Integer that identifies the input data.
-        n_dim: Integer indicating the dimensionality of the embedding.
-        spit_seed: Integer indicating the split seed.
+        hypers: Dictionary of hyper-parameters.
+        split_seed: Integer indicating the split seed.
         split: Integer indicating the split (zero-indexed). A value of
             '-1' indicates that all of the provided data was used for
             training and there was no validation set.

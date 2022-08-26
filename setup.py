@@ -17,7 +17,7 @@ setuptools.setup(
     author_email='brett.roads@gmail.com',
     license='Apache Licence 2.0',
     packages=['tidy_models'],
-    python_requires='>=3.5, <3.9',
+    python_requires='>=3.5, <3.10',
     install_requires=[
         'pandas'
     ],
