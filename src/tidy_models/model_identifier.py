@@ -44,9 +44,17 @@ class ModelIdentifier(object):
     """
 
     def __init__(
-            self, arch_id=0, input_id=0, hypers={},
-            n_split=10, split=-1, split_seed=252,
-            path='', prefix='model', formatter={}):
+        self,
+        arch_id=0,
+        input_id=0,
+        hypers={},
+        n_split=10,
+        split=-1,
+        split_seed=252,
+        path='',
+        prefix='model',
+        formatter={}
+    ):
         """Initialize.
 
         Arguments:
