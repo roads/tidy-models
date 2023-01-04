@@ -117,7 +117,7 @@ def update_one(df, id_data, assoc_data):
     if df[loc].empty:
         # Create new row and add.
         df_new = pd.DataFrame({**id_data, **assoc_data}, index=[len(df)])
-        df = df.append(df_new, ignore_index=True)
+        df = pd.concat([df, df_new], ignore_index=True)
         # Re-sort by identifier keys to keep things tidy.
         df = df.sort_values(list(id_data.keys()))
     else:
