@@ -13,17 +13,12 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 # ============================================================================
-"""Top-level initialization.
-
-Stand-alone:
-    ModelIdentifier
-
-Modules:
-    databases
-    utils
-
-"""
+"""Top-level initialization."""
 
 from tidy_models.model_identifier import ModelIdentifier
 import tidy_models.databases
 import tidy_models.utils
+
+__all__ = [
+    'ModelIdentifier',
+]

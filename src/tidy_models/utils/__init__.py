@@ -18,3 +18,9 @@
 from tidy_models.utils.collapse_splits import collapse_splits
 from tidy_models.utils.identify_hypers import identify_hypers
 from tidy_models.utils.select_hypers import select_hypers
+
+__all__ = [
+    'collapse_splits',
+    'identify_hypers',
+    'select_hypers',
+]
